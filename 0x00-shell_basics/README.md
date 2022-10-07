@@ -9,3 +9,4 @@ ls -an Display current directory content with numerical uid and gid in long form
 rm Deletingan empty file
 ## cd - Change working directory to previous
 ## file Determines the file tyoe of a specify file
+## ln -s Create symbolic links
