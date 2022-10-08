@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R 751 hello | chmod -R 555 .
+chmod 751 hello | find . -type d -print0 | xargs -0 chmod 555
